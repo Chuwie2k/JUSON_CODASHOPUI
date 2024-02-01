@@ -100,7 +100,6 @@ function Catalog(props) {
     <div className="catalog">
       <img src={props.photoName} alt={props.name} />
       <h2>{props.name}</h2>
-      {/* Add any additional catalog information (price, etc.) here */}
     </div>
   );
 }
