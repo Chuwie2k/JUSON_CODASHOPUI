@@ -12,14 +12,6 @@ body {
   text-align: center;
 }
 
-.header {
-  background-color: #311432;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  padding: 0.2em;
-  display: flex;
-  align-items: center;
-}
-
 .header .logo img {
   max-width: 120px;
   height: auto;
@@ -108,4 +100,39 @@ h2 {
   max-width: 40%;
   width: 100%;
   height: auto;
+}
+
+.shop-day {
+  background-image: url('C:\React\codashop-ui-juson\public\games\background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.shop-night {
+  background-image: url('C:\React\codashop-ui-juson\public\games\background2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-day {
+  background-color: #311432;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  padding: 0.2em;
+  display: flex;
+  align-items: center;
+}
+
+.header-night {
+  background-color: #0492C2;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  padding: 0.2em;
+  display: flex;
+  align-items: center;
+}
+
+.shop-night .catalog {
+  background-color: #0492C2;
+  border-color: #555555;
 }
