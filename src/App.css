@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Arial", sans-serif;
-  background-image: url("public/games/background.jpg");
+  background-image: url("../public/games/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -104,14 +104,14 @@ h2 {
 }
 
 .shop-day {
-  background-image: url("public/games/background.jpg");
+  background-image: url("../public/games/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .shop-night {
-  background-image: url("public/games/background2.jpg");
+  background-image: url("../public/games/background2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

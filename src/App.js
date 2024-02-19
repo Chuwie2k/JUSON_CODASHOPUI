@@ -55,7 +55,7 @@ function Shop({ nightMode }) {
     },
     {
       name: "Mobile Legends",
-      photoName: "games/Mlbb.jpg",
+      photoName: "games/mlbb.jpg",
     },
     {
       name: "EA SPORTS FC Mobile",
